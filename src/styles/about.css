@@ -145,3 +145,31 @@
         font-size: small;
     }
 }
+
+@media screen and (min-width:1345px) {
+    .imgContainer img {
+        height: 70%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1494px) {
+    .imgContainer img {
+        height: 60%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:2281px) {
+    .imgContainer img {
+        height: 55%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:2501px) {
+    .imgContainer img {
+        height: 50%;
+        width: 100%;
+    }
+}
