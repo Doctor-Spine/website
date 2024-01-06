@@ -1,6 +1,6 @@
 import React from "react";
-import { FaHandHoldingMedical } from "react-icons/fa6";
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import { FaHandHoldingMedical } from "react-icons/fa6";
+// import { FaLongArrowAltRight } from "react-icons/fa";
 import { MdEmergencyShare } from "react-icons/md";
 
 const Facilities = () => {
@@ -9,38 +9,66 @@ const Facilities = () => {
       <div className="container">
         <div className="row m-0 g-0 p-0">
           <div className="col-md-6 py-5 FacilitiesPaddingRemove">
-            <div className="row h-50  py-5 FacilitiesPaddingRemove">
-              <div className="row aboutHeading pt-5">
-                <h5>
-                  <span>
-                    <FaHandHoldingMedical fontSize={25} />
-                  </span>{" "}
-                  <span>Our Facilities</span>
-                </h5>
+            <div className="row    FacilitiesPaddingRemove">
+              <div className="row aboutSubheading   m-0 p-0">
+                <h1>Our Rehab Process</h1>
               </div>
-              <div className="row aboutSubheading">
-                <h1>
-                  Facilities That We <br /> Provide
-                </h1>
-              </div>
-              <div className="row aboutDescription">
-                <p className="mt-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquid deserunt pariatur perspiciatis quisquam nam totam,
-                  esse consectetur officiis voluptas nulla? Rem minus odit
-                  blanditiis veritatis alias deserunt quaerat eum quo?
-                </p>
-              </div>
-              <div className="row FacilitiesBtn w-25 ml-1">
-                <button type="button" class="btn ">
-                  View All
-                  <FaLongArrowAltRight />
-                </button>
+              <div className="row aboutDescription m-0 p-0">
+                <ul>
+                  <li>
+                    <b>DIABETES REVERSAL PROGRAM </b>
+                    <span>
+                      Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Autem, debitis. Error
+                      ratione, facilis necessitatibus non
+                    </span>
+                  </li>
+                  <li>
+                    <b>WEIGHT MANAGEMENT PROGRAM </b>{" "}
+                    <span>
+                      Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Autem, debitis. Error
+                      ratione, facilis necessitatibus non
+                    </span>
+                  </li>
+                  <li>
+                    <b>THYROID REVERSAL PROGRAM</b>{" "}
+                    <span>
+                      Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Autem, debitis. Error
+                      ratione, facilis necessitatibus non
+                    </span>
+                  </li>
+                  <li>
+                    <b>PCOD/PCOS REVERSAL PROGRAMS</b>{" "}
+                    <span>
+                      Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Autem, debitis. Error
+                      ratione, facilis necessitatibus non
+                    </span>
+                  </li>
+                  <li>
+                    <b>THERAPEUTIC YOGA CLASSES</b>{" "}
+                    <span>
+                      Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Autem, debitis. Error
+                      ratione, facilis necessitatibus non
+                    </span>
+                  </li>
+                  <li>
+                    <b> 1-1 CUSTOMISED DIET PLAN WITH DOCTOR CONSULTATION </b>{" "}
+                    <span>
+                      Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Autem, debitis. Error
+                      ratione, facilis necessitatibus non
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div className="col-md-6 ">
-            <div className="row">
+          <div className="col-md-6 py-5 ">
+            <div className="row paddingSetFac">
               <div className="col-6 ">
                 <div className="row flex-column ">
                   <div className="col ">

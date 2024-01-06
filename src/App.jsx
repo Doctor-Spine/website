@@ -15,6 +15,7 @@ import "./styles/workProcess.css";
 import "./styles/facilities.css";
 import "./styles/doctor.css";
 import "./styles/review.css";
+import "./styles/conditionWeTreat.css";
 
 import Footer from "./components/Footer";
 

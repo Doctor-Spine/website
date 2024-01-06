@@ -30,6 +30,25 @@
     background-color: white;
 }
 
+.aboutDescription ul {
+    color: rgb(99, 99, 184);
+    text-align: justify;
+}
+
+.aboutDescription ul li span {
+    font-size: medium;
+    color: grey;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.aboutDescription ul li b {
+    opacity: 0.7;
+}
+
+.paddingSetFac {
+    margin: 0 10px;
+}
 
 @media screen and (max-width:1199px) {
     .FacilitiesBtn {
@@ -55,15 +74,19 @@
 @media screen and (max-width:600px) {
 
     .FacilitiesPaddingRemove {
-        padding: 0 20px !important;
+        padding: 4px 20px !important;
     }
 
 }
 
 @media screen and (max-width:480px) {
+    .paddingSetFac {
+        margin: initial !important;
+
+    }
 
     .FacilitiesPaddingRemove {
-        padding: 0 10px !important;
+        padding: 4px 10px !important;
     }
 
     .FacilitiesBtn {

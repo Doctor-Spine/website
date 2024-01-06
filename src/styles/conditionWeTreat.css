@@ -1,0 +1,35 @@
+.ConditionWeTreat {
+    height: auto;
+    width: 100%;
+    background-color: rgb(246, 252, 252) !important;
+    padding: 2rem 0;
+}
+
+.imgPic {
+    height: 300px;
+
+    overflow: hidden;
+
+}
+
+.imgPic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+.imgPic:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.conditionTreat h1 {
+    font-weight: 700;
+}
+
+@media screen and (max-width:767px) {
+    .conditionTreat {
+        margin: 30px 0 !important;
+    }
+}

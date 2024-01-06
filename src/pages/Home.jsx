@@ -11,6 +11,8 @@ import Review from "../components/Review";
 import Contact from "../components/Contact";
 import { MdAddIcCall } from "react-icons/md";
 import { BiSolidToTop } from "react-icons/bi";
+import ConditionWeTreat from "../components/ConditionWeTreat";
+
 const Home = () => {
   const [showButton, setShowButton] = useState(false);
   useEffect(() => {
@@ -42,6 +44,7 @@ const Home = () => {
       <WorkProcess />
       <Facilities />
       <Doctor />
+      <ConditionWeTreat />
       <Contact />
       {showButton && (
         <div className="fixIcon">
