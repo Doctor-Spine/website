@@ -8,6 +8,7 @@ import WorkProcess from "../components/WorkProcess";
 import Facilities from "../components/Facilities";
 import Doctor from "../components/Doctor";
 import Review from "../components/Review";
+import Contact from "../components/Contact";
 import { MdAddIcCall } from "react-icons/md";
 import { BiSolidToTop } from "react-icons/bi";
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
       <WorkProcess />
       <Facilities />
       <Doctor />
+      <Contact />
       {showButton && (
         <div className="fixIcon">
           <div className="icon1">

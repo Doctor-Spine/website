@@ -1,13 +1,9 @@
 import React from "react";
 import doctor from "../Images/heroDoctor.png";
-import { useNavigate } from "react-router-dom";
 import doctor2 from "../Images/mobileDoctor.png";
-// import { IoCall } from "react-icons/io5";
 import { MdAddIcCall } from "react-icons/md";
 
 const Hero = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="Hero">
       <div className="container">
@@ -30,12 +26,9 @@ const Hero = () => {
             </div>
             <div className="row heroColor m-0 p-0 ">
               <div className="btnHero m-0 p-0">
-                <button
-                  onClick={() => navigate("/contact")}
-                  className="btn Appointment "
-                >
+                <a href="#contact" className="btn Appointment ">
                   Book An Appointment
-                </button>
+                </a>
                 <a
                   href="tel:+9198209 52248"
                   className="btn mx-3 px-4 btn-primary"
@@ -44,10 +37,10 @@ const Hero = () => {
                     <MdAddIcCall fontSize={20} color="#fff" />
                   </span>
                   <span
-                    className="mx-2 "
+                    className="mx-2 styleCallBtn"
                     style={{ fontSize: "medium", fontWeight: "bold" }}
                   >
-                    Call
+                    Call now
                   </span>
                 </a>
               </div>

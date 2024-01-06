@@ -16,7 +16,6 @@ import "./styles/facilities.css";
 import "./styles/doctor.css";
 import "./styles/review.css";
 
-import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -26,7 +25,6 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -33,8 +33,17 @@
 }
 
 .Appointment:hover {
-    background-color: rgb(12, 240, 206);
-    color: white;
+    background-color: rgb(12, 240, 206) !important;
+    color: white !important;
+}
+
+.styleCallBtn {
+    font-size: medium !important;
+    font-weight: 300 !important;
+}
+
+.styleCallBtn:hover {
+    color: white !important;
 }
 
 .callNow {
