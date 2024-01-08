@@ -13,7 +13,7 @@ const HeroTwo = () => {
                 </span>
                 <h4 className="title">Qualified Doctor</h4>
                 <p className="descriptionHeroTwo ">
-                  Lorem ipsum dolor sit amet consectetur,consectetur
+                  Lorem ipsum dolor st amet consectetur,consectetur
                   <br />
                   elit. Illo amet consectetur, adipisicing
                   <br />
