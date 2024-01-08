@@ -5,7 +5,7 @@
 }
 
 .title {
-    color: blue;
+    color: rgb(31, 87, 162);
     font-weight: 600;
 }
 
@@ -111,6 +111,14 @@
         padding-top: 20px;
 
     }
+
+    .descriptionHeroTwo {
+        font-size: small;
+        /* text-align: justify; */
+
+        font-weight: 700;
+        word-break: break-all !important;
+    }
 }
 
 @media screen and (max-width:372px) {
@@ -126,8 +134,9 @@
     .descriptionHeroTwo {
         font-size: small;
         text-align: justify;
+
         font-weight: 700;
-        word-break: break-all;
+        /* word-break: break-all; */
     }
 
     .descriptionHeroTwo br {

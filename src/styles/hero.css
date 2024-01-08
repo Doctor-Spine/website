@@ -32,6 +32,7 @@
     font-weight: 500;
 }
 
+
 .Appointment:hover {
     background-color: rgb(12, 240, 206) !important;
     color: white !important;
@@ -167,11 +168,15 @@
 }
 
 @media screen and (max-width:525px) {
-    @media (max-width: 525px) {
-        .row.heroColor h1 br {
-            display: none;
 
-        }
+    .row.heroColor h1 br {
+        display: none;
+
+    }
+
+    .Hero {
+        height: 100vh;
+
     }
 
     .heroColor p {
@@ -193,11 +198,20 @@
     }
 }
 
+@media screen and (max-width:387px) {
+
+    .btnHero a {
+        font-size: small;
+        padding: 5px 5px;
+    }
+}
+
 @media screen and (max-width:359px) {
 
     .Appointment {
-        font-weight: 700;
+        font-weight: 500;
         font-size: smaller;
+        padding: 7px 5px !important;
     }
 
     .Appointment:hover {
@@ -208,5 +222,17 @@
     .callNow {
         font-size: smaller;
         font-weight: 500;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:344px) {
+    .btnHero {
+        display: flex;
+        gap: 10px;
+        flex-direction: column !important;
     }
 }
