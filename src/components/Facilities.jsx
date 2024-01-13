@@ -1,5 +1,5 @@
 import React from "react";
-// import { FaHandHoldingMedical } from "react-icons/fa6";
+import { FaHandHoldingMedical } from "react-icons/fa6";
 // import { FaLongArrowAltRight } from "react-icons/fa";
 import { MdEmergencyShare } from "react-icons/md";
 
@@ -9,11 +9,33 @@ const Facilities = () => {
       <div className="container">
         <div className="row m-0 g-0 p-0">
           <div className="col-md-6 py-5 FacilitiesPaddingRemove">
-            <div className="row    FacilitiesPaddingRemove">
-              <div className="row aboutSubheading   m-0 p-0">
-                <h1>Our Rehab Process</h1>
+            <div className="row    FacilitiesPaddingRemove py-5">
+              <div className="row aboutHeading">
+                <h5>
+                  <span>
+                    <FaHandHoldingMedical fontSize={25} />
+                  </span>{" "}
+                  <span>Facilities</span>
+                </h5>
               </div>
-              <div className="row aboutDescription m-0 p-0">
+              <div className="row aboutSubheading">
+                <h1>Facilities We Provide</h1>
+              </div>
+              <div className="row aboutDescription atSmallScreenReview">
+                <p className="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid deserunt pariatur perspiciatis quisquam nam totam,
+                  esse consectetur officiis voluptas nulla? Rem minus odit
+                  blanditiis veritatis alias deserunt quaerat eum quo?
+                </p>
+                <p className="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid deserunt pariatur perspiciatis quisquam nam totam,
+                  esse consectetur officiis voluptas nulla? Rem minus odit
+                  blanditiis veritatis alias deserunt quaerat eum quo?
+                </p>
+              </div>
+              {/* <div className="row aboutDescription m-0 p-0">
                 <ul>
                   <li>
                     <b>DIABETES REVERSAL PROGRAM </b>
@@ -64,7 +86,7 @@ const Facilities = () => {
                     </span>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-6 py-5 ">
